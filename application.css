@@ -1,0 +1,41 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.label{
+	-fx-text-fill:rgb(0,0,255); /* #FFFFFF for white. There are a few ways to add color*/
+	-fx-font-size:16;
+}
+
+.button{
+	-fx-background-radius: 10;
+}
+
+.menu{
+	-fx-background-radius: 10;
+	-fx-background-color: linear-gradient(#add8e6, GRAY);
+}
+
+.men-bar{
+	-fx-background-color: derive(#1d1d1d,20%);
+}
+.label-big{
+	-fx-font-size:25;
+}
+
+.tree-view .label {
+    -fx-text-fill: BLUE;
+}
+
+.tree-cell:selected {
+    -fx-font-weight: bold ;
+}
+
+.tree-myTree {
+   -fx-font: 12px Tahoma;
+   -fx-stroke: #eeeeee;
+   -fx-text-fill: #ffffff;
+   -fx-background-fill: #ADD8E6;
+   }
+
+#vbox-tree{
+    -fx-background-color: #ADD8E6;
+}
